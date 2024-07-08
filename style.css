@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.fontOne {
+    font-family: "Merriweather", serif;
+}
+
+.interFont {
+    font-family: "Inter", sans-serif;
+}
+
+.interFont-l {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+}
+
+.customCon {
+    max-width: 1320px;
+    margin: 50px auto;
+}
+
+.text-64 {
+    font-size: 64px;
+    color: rgb(255 255 255);
+    text-align: start;
+}
+
+.text-18 {
+    font-size: 18px;
+}
+
+.text-72 {
+    font-size: 72px;
+}
+
+.text-20 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.text-24 {
+    font-size: 24px;
+}
+
+.redstye {
+    color: red;
+}
+
+
+.flex-d{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-dc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-d-hor-g2{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0.5rem;
+}
+.gap-2{
+    gap: 20px;
+}
+
+
+.p-42{
+    padding: 42px 0px;
+}
+.liner{
+    background-color: #d2d1d192;
+    border: none;
+    height: 1px;
+}
+
+header {
+    padding: 177px 344px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/Banner\ Image.png);
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.7);
+    z-index: 1;
+}
+
+.herolineCon {
+    text-align: center;
+    color: white;
+    z-index: 2;
+    position: relative;
+}
+
+.heroline {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.heroline2 {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+
+.nextHero {
+    margin: 120px auto;
+    width: 802px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+    /* background: #000; */
+
+}
+
+.nextHeroText {
+    font-size: 88px;
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+}
+
+.nextHeroText2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: red;
+}
+
+.textCon {
+    text-align: center;
+}
+
+
+
+.text-48 {
+    font-size: 48px;
+    color: black;
+}
+
+.wellcome {
+    width: 100%;
+    height: 600px;
+    position: relative;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: white;
+}
+
+.wellcome::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/Vectorrr.png);
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.6);
+    z-index: 1;
+}
+
+.wellcome::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/Group\ 70.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.content {
+    flex-direction: column;
+    display: flex;
+    gap: 48px;
+    align-items: start;
+    position: relative;
+    z-index: 2;
+    text-align: start;
+    margin-left: 126px;
+}
+
+.wellcome-details {
+    font-weight: 300;
+}
+
+.btnFirst {
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px 32px;
+}
+
+.btnFirst:hover {
+    color: #ffa337;
+}
+
+.place-detais {
+    width: 100%;
+    padding: 100px 305px;
+    background-image: linear-gradient(180deg, #FFE7E7, #ff000000);
+    border-radius: 20px;
+    margin-top: 120px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 48px;
+}
+
+.place-text {
+    color: black;
+    font-weight: 100;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.place-text span {
+    color: red;
+}
+
+.btnSecond {
+    padding: 16px 32px;
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.offer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 120px;
+    gap: 70px;
+}
+
+.text-Con {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.offerDescription {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.offertext {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.offertext h3 {
+    color: red;
+}
+
+.imgStore {
+    border: 15px solid red;
+    border-radius: 100%;
+    min-width: 463px;
+    min-height: 463px;
+    background-image: url(./images/Ellipse\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.righttextCon {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 42px;
+}
+
+.righttext h1 {
+    color: red;
+}
+
+
+.holydays {
+    margin-top: 120px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.holydaysText {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 28px;
+}
+
+
+.holydaysImg {
+    width: 100%;
+    height: 662px;
+    background-image: url('./images/Group\ 75.png'), url('./images/Rectangle\ 2.png'), url('./images/Group\ 44.png');
+    background-position: top left, bottom, top right;
+    background-repeat: no-repeat;
+}
+
+.gift {
+    margin-top: 120px;
+}
+
+.imgShowcach {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.item {
+    width: 424px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+.giftDescription {
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.subscribe {
+    margin-top: 120px;
+    text-align: center;
+    padding: 80px 212px;
+    background: #ff000028;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 48px;
+    border-radius: 10px;
+}
+
+.subscribeText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.subscribeText p{
+    width: 110%;
+}
+
+.subscribeEmail form {
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    box-shadow: 0px 0px 50px #11111170;
+}
+
+
+.subscribeEmail input {
+    width: 70%;
+    background-color: transparent;
+    border-style: none;
+    outline: none;
+    margin-left: 20px;
+}
+
+.subscribeEmail input::placeholder{
+    font-size: 18px;
+}
+
+.subscribeEmail button{
+    width: 210px;
+    height:100%;
+    background-color: red;
+    border-style: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 120px;
+    padding: 120px 120px;
+    background-color: #070211;
+    color: white;
+}
